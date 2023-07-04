@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
-  res.json("Hello Mane");
+  res.json("Hello Mane Updated");
 });
 
 app.post("/create-payment-intent", async (req, res) => {
