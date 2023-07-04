@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/stripe": "^8.0.417",
+    "body-parser": "^1.20.2",
     "stripe": "^12.10.0"
   },
   "devDependencies": {
