@@ -1,7 +1,6 @@
 import express from "express";
 import NodeMailer from "nodemailer";
 import bodyParser from "body-parser";
-import { useState } from "react";
 
 const app = express();
 const port = process.env.PORT || 3000; //add your port here
