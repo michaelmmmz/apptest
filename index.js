@@ -45,7 +45,7 @@ app.post("/create-payment-intent", async (req, res) => {
 
 app.post("/nodemail", async (req, res) => {
   console.log("accessed");
-  const words = res.req.headers.value.split(" ");
+  const words = res.req.headers.value.split("_");
   console.log(words[0]);
   console.log(words[1]);
 
