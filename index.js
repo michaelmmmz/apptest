@@ -74,7 +74,7 @@ app.post("/nodemail", async (req, res) => {
     <div style="display: block">
       <div>${product.name}</div>
       <div>${product.price}</div>
-      <div>${product.size}</div>
+      <div>${product.shirtSize}</div>
         <div>${product.quantity}</div>
       <div>${product.participantName}</div>
       <div>${product.participantGrade}</div>
