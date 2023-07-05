@@ -87,8 +87,8 @@ app.post("/nodemail", async (req, res) => {
   });
 
   const options = {
-    from: "apptestbymzv1@gmail.com",
-    to: [words[0], words[1], "apptestbymz1@gmail.com"],
+    from: "doubletroubletrainingapp@gmail.com",
+    to: [words[0], words[1], "doubletroubletrainingapp@gmail.com"],
     subject:
       "Order Confirmation for " + words[0] + " - Account Email: " + words[1],
     html: output,
