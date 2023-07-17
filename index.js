@@ -5,9 +5,9 @@ import bodyParser from "body-parser";
 const app = express();
 const port = process.env.PORT || 3000; //add your port here
 const PUBLISHABLE_KEY =
-  "pk_test_51NNlt0B5G8BtepfW0VFC8IQuzlPkvdjYpUEJRDeg0MeYDvwaIEPFmBRugZnIrUNj0LuB3VbIhjrHLGZTihu8v6c200kvp3CXmU";
+  "pk_live_51NNlt0B5G8BtepfW3iN1QFbqPcCzT0EoxxYfgE355ogCsMkdsmhpYoapEQd643PgjSnrSeIjscSGd5XiqnsI3HwA008He5C2u5";
 const SECRET_KEY =
-  "sk_test_51NNlt0B5G8BtepfWWYCdgLCcqfeuliM2BLmxS9UzcGDNKcZtciEa2cDs9wegPsyE14nPdRd4uXzfU0SbQlVe0mJd00LvZTy4p5";
+  "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";
 import Stripe from "stripe";
 
 //Confirm the API version from your stripe dashboard
